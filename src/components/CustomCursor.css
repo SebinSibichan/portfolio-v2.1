@@ -1,0 +1,18 @@
+/* CustomCursor.css */
+.cursor {
+    position: fixed;
+    width: 52em;
+    height: 52em;
+    background: radial-gradient(circle, rgba(0, 64, 255, 0.12), transparent);
+    border-radius: 30%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
+  
